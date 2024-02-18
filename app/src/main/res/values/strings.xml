@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SocialProblemAndroid</string>
+    <string name="binding_error">바인딩 에러</string>
+
 </resources>
