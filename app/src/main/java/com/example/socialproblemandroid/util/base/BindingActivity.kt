@@ -1,4 +1,4 @@
-package com.example.socialproblemandroid.util
+package com.example.socialproblemandroid.util.base
 
 import android.os.Bundle
 import androidx.annotation.LayoutRes
