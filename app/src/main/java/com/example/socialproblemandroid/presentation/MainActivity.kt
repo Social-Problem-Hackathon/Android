@@ -1,13 +1,15 @@
 package com.example.socialproblemandroid.presentation
 
 import android.content.Context
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.example.socialproblemandroid.R
 import com.example.socialproblemandroid.databinding.ActivityMainBinding
-import com.example.socialproblemandroid.util.BindingActivity
+import com.example.socialproblemandroid.presentation.home.HomeFragment
+import com.example.socialproblemandroid.util.base.BindingActivity
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : BindingActivity<ActivityMainBinding>(R.layout.activity_main) {
 
     private lateinit var context : Context
