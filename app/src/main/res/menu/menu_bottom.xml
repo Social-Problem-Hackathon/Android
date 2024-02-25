@@ -5,6 +5,10 @@
         android:title="홈"
         android:icon="@drawable/ic_home" />
     <item
+        android:id="@+id/menu_document"
+        android:title="서류"
+        android:icon="@drawable/ic_document"/>
+    <item
         android:id="@+id/menu_chat"
         android:title="채팅"
         android:icon="@drawable/ic_chat"  />
