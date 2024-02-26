@@ -4,6 +4,9 @@
 
     <data>
 
+        <variable
+            name="title"
+            type="String" />
 
     </data>
 
@@ -20,23 +23,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
+                <include
+                    android:id="@+id/layout_appbar"
+                    layout="@layout/basic_appbar"
+                    app:title="@{`뉴스 상세보기`}" />
+
                 <ImageView
                     android:id="@+id/iv_news_thumbnail"
                     android:layout_width="match_parent"
                     android:layout_height="300dp"
                     android:scaleType="centerCrop"
                     android:src="@drawable/img_labor"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toBottomOf="@id/layout_appbar" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@color/white"
                     android:text="@string/news_reference"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
                     android:textColor="@color/black"
-                    android:textSize="12sp"/>
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="@id/iv_news_thumbnail"
+                    app:layout_constraintStart_toStartOf="parent" />
 
                 <TextView
                     android:layout_width="match_parent"
