@@ -10,5 +10,7 @@ import dagger.hilt.android.AndroidEntryPoint
 class NewsActivity : BindingActivity<ActivityNewsBinding>(R.layout.activity_news) {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+
     }
 }
