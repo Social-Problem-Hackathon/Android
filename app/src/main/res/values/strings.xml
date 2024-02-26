@@ -1,5 +1,33 @@
 <resources>
     <string name="app_name">SocialProblemAndroid</string>
     <string name="binding_error">바인딩 에러</string>
+    <string name="vet_news_content">Cung cấp ure ổn định ... Chính phủ "Đã đảm bảo hơn 6 tháng"
+
+Tóm tắt
+
+Chính phủ: Xác nhận đã đảm bảo nguồn cung ure hơn 6 tháng
+
+Ure cho nông nghiệp: Được đảm bảo đến giữa tháng 6 năm sau
+
+Sản lượng trong nước: Ổn định, vượt mức tiêu thụ trung bình ngày
+
+Các nhà sản xuất chính: Vận hành quy trình sản xuất vào cuối tuần
+
+Mở rộng các trạm xăng công khai thông tin về kho dự trữ: Lên 2.300
+
+Tăng cường kiểm tra hành vi bất hợp pháp: Truy tố 10 trong số 15 trường hợp
+Nội dung chi tiết
+
+Nguồn cung ure:
+
+Chính phủ xác nhận nguồn cung ure cho các lĩnh vực xe cộ, công nghiệp và nông nghiệp được đảm bảo hơn 6 tháng.\n
+Ure cho nông nghiệp (được sử dụng làm phân bón) được đảm bảo cho đến tháng 2 năm sau với lượng dự trữ hiện tại và nguyên liệu thô đã nhập khẩu.\n
+Cung cấp ure dự kiến sẽ được đảm bảo cho đến giữa tháng 6 năm sau khi tính đến lượng dự kiến sẽ nhập khẩu thêm.\n
+Sản xuất trong nước:
+
+Nguồn cung nguyên liệu thô được cải thiện, dẫn đến sản xuất trong nước ổn định.\n
+Sản lượng ure của 5 nhà sản xuất chính cao hơn mức tiêu thụ trung bình hàng ngày.\n
+Nhà sản xuất lớn nhất trong nước "L" sẽ vận hành quy trình sản xuất ure vào cuối tuần để đáp ứng nhu cầu gia tăng do nhập khẩu ure quy mô lớn.\n</string>
+    <string name="news_reference">자료출처=정책브리핑 www.korea.kr</string>
 
 </resources>
