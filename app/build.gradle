@@ -5,6 +5,7 @@ plugins {
     id 'kotlin-parcelize'
     id 'com.google.dagger.hilt.android'
     id 'org.jetbrains.kotlin.plugin.serialization' version '1.8.20'
+    id 'com.google.gms.google-services'
 }
 
 def localProperties = new Properties()
@@ -24,6 +25,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField("String", "API_KEY", localProperties['API_KEY'])
         buildConfigField("String","NEWS_BASE_URL",localProperties['NEWS_BASE_URL'])
+        buildConfigField("String","BARD_API_KEY",localProperties['BARD_API_KEY'])
     }
 
     buildTypes {
@@ -114,4 +116,8 @@ dependencies {
     implementation 'com.tickaroo.tikxml:core:0.8.13'
     implementation 'com.tickaroo.tikxml:retrofit-converter:0.8.13'
     kapt 'com.tickaroo.tikxml:processor:0.8.13'
+
+    //firebase
+    implementation platform('com.google.firebase:firebase-bom:32.7.2')
+    implementation 'com.google.firebase:firebase-analytics'
 }
